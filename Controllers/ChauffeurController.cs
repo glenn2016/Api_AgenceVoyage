@@ -13,9 +13,7 @@ namespace Api_AgenceVoyage.Controllers
         private iChauffeurService __chauffeurService;
         private IMapper _mapper;
 
-        public ChauffeurController(
-        iChauffeurService ChauffeurService,
-        IMapper mapper)
+        public ChauffeurController(iChauffeurService ChauffeurService,IMapper mapper)
         {
             __chauffeurService = ChauffeurService;
             _mapper = mapper;
